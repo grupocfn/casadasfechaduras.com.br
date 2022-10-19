@@ -14,7 +14,7 @@ export default function Header() {
     <header id="main-header">
       <div className="header-container">
         <div id="menu-logo">
-          <Link to="/CFN-institutional-website">
+          <Link to="/">
             <img className="big-logo" src={imglogo} alt="Casa das Fechaduras" />
             <img
               className="small-logo"
