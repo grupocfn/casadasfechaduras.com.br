@@ -22,7 +22,7 @@ export default function Footer() {
         <div className='footer-right'>
           <h2>Casa das Fechaduras de São Gonçalo</h2>
           <p>Rua Feliciano Sodré, 57 Loja 1</p>
-          <p>Centro - Niterói, Rio de Janeiro - Brasil</p>
+          <p>Centro - São Gonçalo, Rio de Janeiro - Brasil</p>
           <p>Telefone : 21 2713 - 6161</p>
         </div>
       </div>
@@ -34,7 +34,7 @@ export default function Footer() {
             target="_blank"
             rel="noreferrer"
           >
-          Patrick Machado
+          Patrick Machado.
         </a>
       </h1>
           </div>
