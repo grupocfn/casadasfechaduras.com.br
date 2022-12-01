@@ -10,6 +10,8 @@ import iconPlace from '../../assets/img/icons/iconeplace.png'
 import './Header.scss'
 
 export default function Header() {
+  const email = "mailto:gerente1@casadasfechaduras.com.br?subject=Enviado pelo site";
+  
   return (
     <header id="main-header">
       <div className="header-container">
@@ -64,7 +66,7 @@ export default function Header() {
                 <img src={iconInsta} alt="instagram.com/casadasfechaduras/" />
               </div>
             </a>
-            <a href="mailto:gerente1@casadasfechaduras.com.br?subject=Enviado pelo site">
+            <a href={email}>
               <div>
                 <img src={iconEmail} alt="Email" />
               </div>
