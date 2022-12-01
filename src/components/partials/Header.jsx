@@ -64,7 +64,7 @@ export default function Header() {
                 <img src={iconInsta} alt="instagram.com/casadasfechaduras/" />
               </div>
             </a>
-            <a href="mailto:vendas@casadasfechaduras.com.br?subject=Enviado pelo site">
+            <a href="mailto:gerente1@casadasfechaduras.com.br?subject=Enviado pelo site">
               <div>
                 <img src={iconEmail} alt="Email" />
               </div>
