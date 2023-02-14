@@ -1,9 +1,15 @@
 import './Footer.scss'
 import imglogo from '../../assets/img/logoCFN.svg'
 import { Link } from 'react-router-dom'
+import AOS from 'aos';
+import 'aos/dist/aos.css';
+import { useEffect } from 'react';
 
 
 export default function Footer() {
+  useEffect(() => {
+    AOS.init();
+  }, [])
   return (
     <footer id="main-footer">
       <div className='footer-menu'>

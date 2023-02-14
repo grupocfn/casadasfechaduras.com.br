@@ -1,3 +1,6 @@
+import AOS from 'aos';
+import 'aos/dist/aos.css';
+import { useEffect } from 'react';
 import './Gallery.scss'
 
 import foto1 from '../../assets/img/gallery/fotogaleria1.webp'
@@ -11,8 +14,11 @@ import foto8 from '../../assets/img/gallery/fotogaleria8.webp'
 import foto9 from '../../assets/img/gallery/fotogaleria9.webp'
 
 export default function Gallery() {
+  useEffect(() => {
+    AOS.init();
+  }, [])
   return (
-    <section id="gallery-container">
+    <section id="gallery-container" data-aos="fade-up">
       <div className="image-gallery">
         <div className="image-box">
           <img src={foto1} alt="foto padrão" />

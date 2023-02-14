@@ -1,24 +1,21 @@
 import './Form.scss'
-import React from 'react'
-import { useForm } from 'react-hook-form'
+import AOS from 'aos';
+import 'aos/dist/aos.css';
+import { useEffect, React } from 'react';
 
 export default function Form() {
-  const {
-    // register,
-    handleSubmit,
-    formState: { errors }
-  } = useForm()
-  const onSubmit = data => console.log(data)
-  console.log(errors)
+  useEffect(() => {
+    AOS.init();
+  }, [])
 
   return (
-    <section id="form-container">
+    <section id="form-container" data-aos="fade-up">
       <div id="form-header">
         <h1 className="section-title">Contate-nos</h1>
       </div>
 
-      <form id="form-body" onSubmit={handleSubmit(onSubmit)}>
-      <div className="vertical-line-contact-page"></div>
+      <div id="form-body">
+        <div className="vertical-line-contact-page"></div>
         <div className="contact-info">
           <div className="contact-info-place">
             <h3 className="contact-info-title">Casa das Fechaduras de Niterói</h3>
@@ -40,46 +37,7 @@ export default function Form() {
         </div>
         <div className="vertical-line-contact-page"></div>
         <hr />
-        {/* <div className="contact-form">
-          <input
-            type="text"
-            placeholder=" Nome completo"
-            {...register('Name', { required: true, maxLength: 80 })}
-          />
-          <input
-            type="text"
-            placeholder=" Email"
-            {...register('Email', {
-              required: true,
-              maxLength: 60,
-              pattern: /^\S+@\S+$/i
-            })}
-          />
-          <input
-            type="tel"
-            placeholder=" Número de telefone"
-            {...register('Mobile number', {
-              required: true,
-              minLength: 8,
-              maxLength: 14
-            })}
-          />
-          <select {...register('tipo de comentario', { required: true })}>
-            <option value="tipo"> Selecione o tipo de comentário</option>
-            <option value="Elogio">Elogio</option>
-            <option value="Proposta">Proposta</option>
-            <option value="Reclamacao">Reclamação</option>
-            <option value="Sugestao">Sugestão</option>
-          </select>
-          <input
-            className="comment"
-            type="text"
-            placeholder=" Comentário"
-            {...register('Comment', { required: true, maxLength: 200 })}
-          />
-          <input type="submit" />
-        </div> */}
-      </form>
+      </div>
     </section>
   )
 }

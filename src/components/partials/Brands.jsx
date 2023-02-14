@@ -13,12 +13,18 @@ import stam from '../../assets/img/brands/stam.png'
 import vouga from '../../assets/img/brands/vouga.png'
 import yaltres from '../../assets/img/brands/yaltres.png'
 import tupai from '../../assets/img/brands/tupai.png'
+import AOS from 'aos';
+import 'aos/dist/aos.css';
+import { useEffect } from 'react'
 
 export default function Brands() {
+  useEffect(() => {
+    AOS.init();
+  }, [])
   return (
     <section id="brands-container">
       <h1>As melhores marcas pra você!</h1>
-      <div id="image-brands">
+      <div id="image-brands" data-aos="fade-up">
         <div className="image-box">
           <a
             href="https://aliancametalurgica.com.br/"
