@@ -21,31 +21,31 @@ export default function Gallery() {
     <section id="gallery-container" data-aos="fade-up">
       <div className="image-gallery">
         <div className="image-box">
-          <img src={foto1} alt="foto padrão" />
+          <img src={foto1} alt="foto padrão" max-width={250} />
         </div>
         <div className="image-box">
-          <img src={foto2} alt="foto padrão" />
+          <img src={foto2} alt="foto padrão" max-width={250} />
         </div>
         <div className="image-box">
-          <img src={foto3} alt="foto padrão" />
+          <img src={foto3} alt="foto padrão" max-width={250} />
         </div>
         <div className="image-box">
-          <img src={foto4} alt="foto padrão" />
+          <img src={foto4} alt="foto padrão" max-width={250} />
         </div>
         <div className="image-box">
-          <img src={foto5} alt="foto padrão" />
+          <img src={foto5} alt="foto padrão" max-width={250} />
         </div>
         <div className="image-box">
-          <img src={foto6} alt="foto padrão" />
+          <img src={foto6} alt="foto padrão" max-width={250} />
         </div>
         <div className="image-box">
-          <img src={foto7} alt="foto padrão" />
+          <img src={foto7} alt="foto padrão" max-width={250} />
         </div>
         <div className="image-box">
-          <img src={foto8} alt="foto padrão" />
+          <img src={foto8} alt="foto padrão" max-width={250} />
         </div>
         <div className="image-box desappear">
-          <img src={foto9} alt="foto padrão" />
+          <img src={foto9} alt="foto padrão" max-width={250} />
         </div>
       </div>
     </section>
