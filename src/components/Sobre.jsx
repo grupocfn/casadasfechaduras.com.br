@@ -10,6 +10,7 @@ import casadasfechaduras2010lojanova from '../assets/img/about/casadasfechaduras
 import lojabb from '../assets/img/about/lojabb.webp'
 import equipe from '../assets/img/about/equipe.webp'
 import treinamento from '../assets/img/about/treinamento.webp'
+
 import { useEffect } from 'react'
 import AOS from 'aos';
 import 'aos/dist/aos.css';
@@ -263,8 +264,8 @@ export default function Sobre() {
         <span className="article-text">
           Desde a sua fundação, a Casa das Fechaduras investe na valorização e
           aperfeiçoamento dos seus funcionários, através de cursos, treinamentos
-          e visitas às fábricas, proporcionando assum um atendimento cada vez
-          mais personalizado aos seus clientes, seja o consumidor, sejam
+          e visitas às fábricas, proporcionando assim um atendimento cada vez
+          mais personalizado aos seus clientes, seja o consumidor ou 
           profissionais.
         </span>
       </div>

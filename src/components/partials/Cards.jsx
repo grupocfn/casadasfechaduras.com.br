@@ -53,7 +53,7 @@ export default function Cards() {
               Prezamos pelo seu bem estar e conforto.
             </Card.Title>
             <Card.Text className="card-text">
-              Priorizando a sua saúde e conforto.
+              Priorizando a sua saúde.
             </Card.Text>
           </Card.Body>
           <Card.Footer>
