@@ -2,14 +2,12 @@ import { Carousel } from 'react-bootstrap'
 
 import './Carousel.scss'
 
-// import img1 from '../../assets/img/carousel/carousel_home_1.webp'
 import img1 from '../../assets/img/carousel/teste.jpg'
 import img2 from '../../assets/img/carousel/carousel_home_3.webp'
-// import img3 from '../../assets/img/carousel/carousel_home_2.webp'
 import img3 from '../../assets/img/carousel/teste2.jpg'
 
 
-export default function CarouselContainer(props) {
+export default function CarouselContainer() {
   return (
     <Carousel slide>
       <Carousel.Item>
