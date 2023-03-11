@@ -1,16 +1,16 @@
 {
   "files": {
     "main.css": "/static/css/main.7ecbb854.css",
-    "main.js": "/static/js/main.36ffd90e.js",
+    "main.js": "/static/js/main.135aeded.js",
     "static/media/carousel_home_1.jpg": "/static/media/carousel_home_1.61ea95f3de9292d2cfb7.jpg",
-    "static/media/carousel_home_3.jpg": "/static/media/carousel_home_3.2c13b8d398025b341d55.jpg",
+    "static/media/carousel_home_2.jpg": "/static/media/carousel_home_2.2c13b8d398025b341d55.jpg",
     "static/media/arouca.png": "/static/media/arouca.2c0cb97a1f1107781a5f.png",
     "static/media/Card2.png": "/static/media/Card2.5f2d3f03239d17f37204.png",
     "static/media/Card1.png": "/static/media/Card1.ee3eba91eb60eb3e2d82.png",
     "static/media/vouga.png": "/static/media/vouga.5700091a28245b9c7c36.png",
     "static/media/1956.webp": "/static/media/1956.f9b53cc9a073b3248951.webp",
     "static/media/Card3.png": "/static/media/Card3.f64a3c62e05ef3a77779.png",
-    "static/media/carousel_home_2.webp": "/static/media/carousel_home_2.ef5ce38aa865f7d90af9.webp",
+    "static/media/carousel_home_3.webp": "/static/media/carousel_home_3.ef5ce38aa865f7d90af9.webp",
     "static/media/aperto-de-mao.webp": "/static/media/aperto-de-mao.7be406b69d36eccafaad.webp",
     "static/media/alianca.png": "/static/media/alianca.78f782580c80a89dd4f2.png",
     "static/media/casadasfechaduras2010lojanova.webp": "/static/media/casadasfechaduras2010lojanova.48462ecd3331ba24c38a.webp",
@@ -40,10 +40,10 @@
     "static/media/fotogaleria6.webp": "/static/media/fotogaleria6.69658eb5afcb98d06fa5.webp",
     "index.html": "/index.html",
     "main.7ecbb854.css.map": "/static/css/main.7ecbb854.css.map",
-    "main.36ffd90e.js.map": "/static/js/main.36ffd90e.js.map"
+    "main.135aeded.js.map": "/static/js/main.135aeded.js.map"
   },
   "entrypoints": [
     "static/css/main.7ecbb854.css",
-    "static/js/main.36ffd90e.js"
+    "static/js/main.135aeded.js"
   ]
 }
