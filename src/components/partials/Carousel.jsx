@@ -3,11 +3,11 @@ import { Carousel } from 'react-bootstrap'
 import './Carousel.scss'
 
 import img1 from '../../assets/img/carousel/carousel_home_1.jpg'
-import img2 from '../../assets/img/carousel/carousel_home_2.webp'
-import img3 from '../../assets/img/carousel/carousel_home_3.jpg'
+import img2 from '../../assets/img/carousel/carousel_home_3.webp'
+import img3 from '../../assets/img/carousel/carousel_home_2.jpg'
 
 
-export default function CarouselContainer() {
+export default function CarouselContainer(props) {
   return (
     <Carousel slide>
       <Carousel.Item>

@@ -5,7 +5,6 @@ import AOS from 'aos';
 import 'aos/dist/aos.css';
 import { useEffect } from 'react';
 
-
 export default function Footer() {
   useEffect(() => {
     AOS.init();
@@ -34,16 +33,16 @@ export default function Footer() {
       </div>
       <div className='footer-copy'>
         <h1>
-          &copy; Casa das Fechaduras 2022 - Todos os Direitos Reservados - Em desenvolvimento por{' '}
+          &copy; Casa das Fechaduras 2023 - Todos os Direitos Reservados - Em desenvolvimento por{' '}
           <a
             href="https://www.linkedin.com/in/patrick2m/"
             target="_blank"
             rel="noreferrer"
           >
           Patrick Machado.
-        </a>
-      </h1>
-          </div>
+          </a>
+        </h1>
+      </div>
     </footer>
   )
 }
